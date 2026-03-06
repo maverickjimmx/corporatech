@@ -326,4 +326,5 @@ input, select, textarea {
     .about-grid {
         grid-template-columns: 1fr;
     }
+}
 footer { padding: 40px 0; border-top: 1px solid #eee; text-align: center; color: var(--text-light); font-size: 0.9rem; }
