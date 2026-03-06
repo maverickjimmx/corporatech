@@ -207,4 +207,63 @@ input, select, textarea {
     border-radius: 5px;
 }
 
+.sub-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid var(--primary);
+    padding-left: 15px;
+}
+
+/* Infrastructure Grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+/* Supply Section Scroller */
+.supply-scroller {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.supply-card {
+    background: var(--white);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.supply-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.supply-detail {
+    padding: 20px;
+}
+
+.supply-detail h5 {
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.supply-detail p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+.supply-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
 footer { padding: 40px 0; border-top: 1px solid #eee; text-align: center; color: var(--text-light); font-size: 0.9rem; }
